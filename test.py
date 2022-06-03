@@ -157,8 +157,8 @@ index = 0
 col_list = []
 
 for item in ids:
-    if index > 40:
-        break
+    if (index % 40 == 0):
+        sleep(minute)
     else:
         coin_data = cg.get_coin_by_id(item)
         col_list.append({'name': coin_data["name"],
