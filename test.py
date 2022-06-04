@@ -1,11 +1,19 @@
-#This file is  a test for the Coingecko API
+"""
+This file is  a test for the Coingecko API
 
-#Documentation
-#https://github.com/man-c/pycoingecko
+Documentation:
+    https://github.com/man-c/pycoingecko
+
+Special thanks to:
+    https://www.postgresqltutorial.com/postgresql-python/create-tables/
+"""
 
 import os
+import psycopg2
+#from config import config
 from pycoingecko import CoinGeckoAPI
 cg = CoinGeckoAPI()
+
 
 """
 #TESTING GROUNDS
@@ -179,8 +187,9 @@ print(col_list)
 
 """
 
-
 """
+def create_tables():
+    #commands = ()
 What I want to do is to gather a comprehenssive list of id's 
 To import these lists directly into PSQL
 """
