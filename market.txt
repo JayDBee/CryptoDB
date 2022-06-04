@@ -1,0 +1,4 @@
+ id | curr_price_usd | total_supply | circulating_supply | last_updated 
+----+----------------+--------------+--------------------+--------------
+(0 rows)
+

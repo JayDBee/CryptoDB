@@ -10,6 +10,7 @@ Special thanks to:
 
 import os
 import psycopg2
+import time
 #from config import config
 from pycoingecko import CoinGeckoAPI
 cg = CoinGeckoAPI()
@@ -128,23 +129,52 @@ tickers
 """
 
 #Creates list of all Id's, sybmols, & names
-ids = []
 symbols = []
 names = []
 
-#initialize list
-for list in cg.get_coins_list():
-    ids.append(list["id"])
-    symbols.append(list["symbol"])
-    names.append(list["name"])
+res = []
+comp = []
+
+ids = []
+for item in cg.get_coins_list():
+    ids.append(item["id"])
+
+
+
+for id in ids:
+    x = cg.get_coin_by_id(id)
+    for i in x["localization"]:
+        print(i)
+    break
+"""
+x = cg.get_coin_by_id('zyx')
+for i in x["localization"]:
+    print(i)
+y = x["market_data"]
+print(y["current_price"]["usd"])
+print(y["circulating_supply"])
+print(y["total_supply"])
+print(y["last_updated"])
+i = 1
+for id in ids:
+    if (i % 40 == 0):
+        break
+    else:
+        x = cg.get_coin_by_id(id)
+        res = [x["id"], x["market_cap_rank"], x["coingecko_rank"]]
+        comp.append(res)
+        i += 1
+
+print(len(comp))
+print(comp)
+"""
 
 #index of last item in list
 l = len(ids) - 1
 
 ##################################
 #Creates list of data for id's
-print(cg.get_coin_by_id(ids[0]))
-
+#print(cg.get_coin_by_id(ids[0]))
 
 """
 *name
