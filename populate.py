@@ -41,16 +41,15 @@ def create_ranks():
             FOREIGN KEY(Id)
                 REFERENCES cryptocurrencies(Id)
     )'''
-
     cursor.execute(sql)
 
 
 def create_records():
     sql = '''CREATE TABLE crypto_records(
             Id VARCHAR(40),
-            All_time_high DECIMAL(10,10),
+            All_time_high NUMERIC,
             ATH_date VARCHAR(30),
-            All_time_low DECIMAL(10,10),
+            All_time_low NUMERIC,
             ATL_date VARCHAR(40),
             PRIMARY KEY(Id),
             FOREIGN KEY(Id)
@@ -62,9 +61,9 @@ def create_records():
 def create_market():
     sql = '''CREATE TABLE crypto_marketdata(
             Id VARCHAR(40),
-            curr_price_usd DECIMAL(10,10),
-            total_supply DECIMAL(15,5),
-            circulating_supply DECIMAL(10,10),
+            curr_price_usd NUMERIC,
+            total_supply NUMERIC,
+            circulating_supply NUMERIC,
             last_updated VARCHAR(30),
             PRIMARY KEY(Id),
             FOREIGN KEY(Id)
@@ -86,15 +85,15 @@ def create_langs():
 
 def drop_tables():
     #drops the cryptocurrencies table
-    sql = '''DROP TABLE cryptocurrencies CASCADE'''
+    sql = '''DROP TABLE IF EXISTS cryptocurrencies CASCADE'''
     cursor.execute(sql)
-    sql = '''DROP TABLE crypto_ranks'''
+    sql = '''DROP TABLE IF EXISTS crypto_ranks'''
     cursor.execute(sql)
-    sql = '''DROP TABLE crypto_records'''
+    sql = '''DROP TABLE IF EXISTS crypto_records'''
     cursor.execute(sql)
-    sql = '''DROP TABLE crypto_marketdata'''
+    sql = '''DROP TABLE IF EXISTS crypto_marketdata'''
     cursor.execute(sql)
-    sql = '''DROP TABLE crypto_langs'''
+    sql = '''DROP TABLE IF EXISTS crypto_langs'''
     cursor.execute(sql)
 
 
@@ -118,88 +117,104 @@ def wrap_currencies():
 #ID,market_cap_rank,coingecko_rank
 def insert_in_rank(val_insert):
     query = '''INSERT INTO crypto_ranks(Id, market_cap_rank, coingecko_rank)
-        VALUES(%s,%d,%d)'''
+                VALUES(%s,%s,%s)'''
     cursor.execute(query, val_insert)
 
-
-def wrap_ranks(ids):
-    seconds = 60
+def wrap_ranks(id_set):
     count = 1
     rank_table = []
-    for id in ids:
-        if(count % seconds == 0):
+
+    for id in id_set:
+        #request limit is set to 50 per minute
+        if(count % 50 == 0):
             break
         else:
+            #get_coin_by_id returns a dictionary to res
             res = cg.get_coin_by_id(id)
-            rank = (res["id"],res["market_cap_rank"],res["coingecko_rank"])
-            rank_table.append(rank)
+
+            res_id = res["id"]
+            mrkt_rank = res["market_cap_rank"]
+            gecko_rank = res["coingecko_rank"]
+
+            rank_table.append((res_id, mrkt_rank, gecko_rank))
             count +=1
 
     for record in rank_table:
         try:
             insert_in_rank(record)
         except:
-            print("unable to insert " + str(record) + " in rank")
+            print("unable to insert " + str(record) + " in rank database")
 
 
 def insert_in_records(val_insert):
-    query = '''INSERT INTO crypto_records(
-                        Id, All_time_high, ATH_date, 
-                        All_time_low, ATL_date)
-                VALUES(%s,%f,%s,%f,%s)'''
+    query = '''INSERT INTO crypto_records( Id, All_time_high, ATH_date, All_time_low, ATL_date)
+                VALUES(%s,%s,%s,%s,%s)'''
     cursor.execute(query, val_insert)
 
 
-def wrap_records(ids):
-    seconds = 60
-    count = 0
+def wrap_records(id_set):
+    count = 1
     record_table = []
-    for id in ids:
-        if(count % seconds == 0):
+    for id in id_set:
+        if(count % 50 == 0):
             break
         else:
-            x = cg.get_coin_by_id(id)
-            res = x["market_data"]
-            record = [x["id"],
-                        res["ath"]["usd"],
-                        res["ath_date"]["usd"],
-                        res["atl"]["usd"],
-                        res["atl_date"]["usd"]]
-            record_table.append(record)
+            res = cg.get_coin_by_id(id)
+            m_result = res["market_data"]
+            coin_id = res["id"]
+
+            try:
+                ath = m_result["ath"]["usd"]
+                ath_d = m_result["ath_date"]["usd"]
+                atl = m_result["atl"]["usd"]
+                atl_d = m_result["atl_date"]["usd"]
+
+                record_table.append((coin_id, ath, ath_d, atl, atl_d))
+            except:
+                print("unable to find ath, ath_date, atl, or atl_date")
+
             count +=1
 
-    for r in record_table:
-        insert_in_records(r)
+    for record in record_table:
+        try:
+            insert_in_records(record)
+        except:
+            print("unable to insert " + str(record) + " in record database")
 
 
 def insert_in_marketdata(val_insert):
-    query = '''INSERT INTO crypto_marketdata(
-                        Id, curr_price_usd, total_supply, 
-                        circulating_supply, last_updated)
-                VALUES(%s,%f,%f,%f,%s)'''
+    query = '''INSERT INTO crypto_marketdata( Id, curr_price_usd, total_supply, circulating_supply, last_updated)
+                VALUES(%s,%s,%s,%s,%s)'''
     cursor.execute(query, val_insert)
 
 
-def wrap_marketdata(ids):
-    seconds = 60
-    count = 0
+def wrap_marketdata(id_set):
+    count = 1
     market_table = []
-    for id in ids:
-        if(count % seconds == 0):
+    for id in id_set:
+        if(count % 50 == 0):
             break
         else:
-            x = cg.get_coin_by_id(id)
-            res = x["market_data"]
-            market = [x["id"],
-                        res["current_price"]["usd"],
-                        res["circulating_supply"],
-                        res["total_supply"],
-                        res["last_updated"]]
-            market_table.append(market)
+            res = cg.get_coin_by_id(id)
+            m_result = res["market_data"]
+            coin_id = res["id"]
+
+            try:
+                cur_price = m_result["current_price"]["usd"]
+                tot_supply = m_result["total_supply"]
+                cir_supply = m_result["circulating_supply"]
+                last_update = m_result["last_updated"]
+
+                market_table.append((coin_id, cur_price, tot_supply, cir_supply, last_update))
+            except:
+                print("unable to find cur_price,total_supply, cir_supply, or last_udpate")
             count +=1
 
     for record in market_table:
-        insert_in_marketdata(record)
+        try:
+            insert_in_marketdata(record)
+        except:
+            print("unable to insert " + str(record) + " in market database")
 
 
 def insert_in_langs(val_insert):
@@ -208,44 +223,58 @@ def insert_in_langs(val_insert):
     cursor.execute(query, val_insert)
 
 
-def wrap_langs(ids):
-    seconds = 60
-    count = 0
-    for id in ids:
-        if(count % seconds == 0):
+def wrap_langs(id_set):
+    count = 1
+    for id in id_set:
+        if(count % 50 == 0):
                 break
         else:
-            x = cg.get_coin_by_id(id)
+            res = cg.get_coin_by_id(id)
             count +=1
-            for lang in x["localization"]:
-                insert_in_langs((id,lang))
+
+            #res["localization"] contains a list of languages
+            for lang in res["localization"]:
+                try:
+                    insert_in_langs((id,lang))
+                except:
+                    print("unable to insert " + str(lang) + " in language database")
+
 
 
 if __name__ == '__main__':
-    ids = []
-    for item in cg.get_coins_list():
-        ids.append(item["id"])
 
-    #calls to fill 
-    #wrap_currencies()
-    wrap_ranks(ids)
+    #if needed
+    #drop_tables()
 
-    conn.commit()
-    conn.close()
-"""
-    create_cryptoTable()    #if not already created
+    #if not already created
+    create_cryptoTable()
     create_ranks()
     create_records()
     create_market()
     create_langs()
 
-    #drop_tables()
-    #creates a list of id's in the exchange
+    #collects all id's in the current coingecko db
+    ids = []
+    for item in cg.get_coins_list():
+        ids.append(item["id"])
 
+    #calls to fill databases
+    wrap_currencies()
+    conn.commit()
+
+    wrap_ranks(ids)
+    conn.commit()
     sleep(60)
+
     wrap_records(ids)
+    conn.commit()
     sleep(60)
+
     wrap_marketdata(ids)
+    conn.commit()
     sleep(60)
+
     wrap_langs(ids)
-"""
+
+    conn.commit()
+    conn.close()

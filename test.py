@@ -140,13 +140,23 @@ for item in cg.get_coins_list():
     ids.append(item["id"])
 
 
-
-for id in ids:
-    x = cg.get_coin_by_id(id)
-    for i in x["localization"]:
-        print(i)
-    break
+x = cg.get_coin_by_id('zyx')
+m_result = x["market_data"]
+ath = m_result["ath"]["usd"]
+print(ath)
 """
+i = 1
+for id in ids:
+    if (i % 50 == 0):
+        break
+    else:
+        res = cg.get_coin_by_id(id)
+        rank = (res["id"],res["market_cap_rank"],res["coingecko_rank"])
+        print(str(rank) + " : " + str(i))
+        i += 1
+print("done!")
+
+
 x = cg.get_coin_by_id('zyx')
 for i in x["localization"]:
     print(i)
