@@ -1,4 +1,0 @@
- id | market_cap_rank | coingecko_rank 
-----+-----------------+----------------
-(0 rows)
-
