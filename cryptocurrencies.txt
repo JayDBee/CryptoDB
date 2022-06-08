@@ -605,6 +605,7 @@
  algodao                                               | adao                                           | AlgoDAO
  algodex                                               | algx                                           | Algodex
  algogems                                              | gems                                           | AlgoGems
+ algomint                                              | gomint                                         | Algomint
  algopad                                               | algopad                                        | AlgoPad
  algopainter                                           | algop                                          | AlgoPainter
  algoracle                                             | gora                                           | Goracle
@@ -752,6 +753,7 @@
  angelscreed                                           | angel                                          | AngelsCreed
  angle-protocol                                        | angle                                          | ANGLE
  angryb                                                | anb                                            | Angryb
+ angry-doge                                            | anfd                                           | Angry Doge
  angryfloki                                            | $afloki                                        | AngryFloki
  angular-finance                                       | angl                                           | Angular Finance
  animal-concerts-token                                 | anml                                           | Animal Concerts
@@ -838,7 +840,6 @@
  apocalypse                                            | apoc                                           | Apocalypse
  apollo                                                | apl                                            | Apollo
  apollo-coin                                           | apx                                            | Apollo Coin
- apollo-dao                                            | apollo                                         | Apollo DAO
  apollo-inu                                            | apollo                                         | Apollo Inu
  apollon-limassol                                      | apl                                            | Apollon Limassol Fan Token
  apollo-protocol                                       | apollo                                         | Apollo Protocol
@@ -1056,6 +1057,7 @@
  atbcoin                                               | atb                                            | ATBCoin
  at-finance                                            | at                                             | AT Finance
  atheios                                               | ath                                            | Atheios
+ athena-crypto-bank                                    | ath                                            | Athena Crypto Bank
  athena-money                                          | ath                                            | Athena Money
  athena-money-owl                                      | owl                                            | Athena Money Owl
  athenas                                               | athenasv2                                      | Athenas
@@ -1142,7 +1144,6 @@
  avalaunch                                             | xava                                           | Avalaunch
  avalend-finance                                       | aval                                           | Avalend Finance
  avaluse                                               | aval                                           | Avaluse
- ava-mim                                               | avamim                                         | Ava MIM
  avania                                                | nova                                           | Avania
  avanyan                                               | anyan                                          | AvaNyan
  avaocado-dao                                          | avg                                            | Avocado DAO
@@ -1246,7 +1247,6 @@
  baby-floki-doge                                       | babyfd                                         | Baby Floki Doge
  baby-floki-inu                                        | bfloki                                         | Baby Floki Inu
  baby-floki-up                                         | bfu                                            | Baby Floki Up
- babyfrog                                              | babyfrog                                       | BabyFrog
  babyharmony                                           | babyharmony                                    | BabyHarmony
  baby-kishu                                            | babykishu                                      | Baby Kishu
  babykitty                                             | babykitty                                      | BabyKitty
@@ -1330,12 +1330,12 @@
  baksdao                                               | baks                                           | BaksDAO
  balanced-dollars                                      | bnusd                                          | Balanced Dollars
  balancer                                              | bal                                            | Balancer
+ balancer-boosted-aave-dai                             | bb-a-dai                                       | Balancer Boosted Aave DAI
  balancer-boosted-aave-usdc                            | bb-a-usdc                                      | Balancer Boosted Aave USDC
  balancer-boosted-aave-usdt                            | bb-a-usdt                                      | Balancer Boosted Aave USDT
  balancer-booster-aave-usd                             | bb-a-usd                                       | Balancer Boosted Aave USD
  balance-tokens                                        | baln                                           | Balanced Network
  balicoin                                              | bali                                           | Bali Coin
- bee-inu                                               | beeinu                                         | Bee Inu
  balikesirspor-token                                   | blks                                           | Balıkesirspor Token
  balisari                                              | bst                                            | Balisari
  bali-social-integrated                                | bsi                                            | Bali Social Integrated
@@ -1466,6 +1466,7 @@
  beechat                                               | chat                                           | BeeChat
  beefy-escrowed-fantom                                 | beftm                                          | Beefy Escrowed Fantom
  beefy-finance                                         | bifi                                           | Beefy.Finance
+ bee-inu                                               | beeinu                                         | Bee Inu
  beekan                                                | bkbt                                           | BeeKan / Beenews
  beenode                                               | bnode                                          | Beenode
  beer-money                                            | beer                                           | Beer Money
@@ -1652,7 +1653,7 @@
  bitball                                               | btb                                            | Bitball
  bitball-treasure                                      | btrs                                           | Bitball Treasure
  bitbar                                                | btb                                            | Bitbar
- bitbase-token                                         | btbs                                           | BitBase BTBS
+ bitbase-token                                         | btbs                                           | BitBase Token
  bitberry-token                                        | bbr                                            | Bitberry
  bitblocks-finance                                     | bbkfi                                          | BitBlocks Finance
  bitblocks-fire                                        | bfire                                          | Bitblocks Fire
@@ -2011,7 +2012,7 @@
  bolt-true-dollar                                      | btd                                            | Bolt Dollar
  bolt-true-share                                       | bts                                            | Bolt Share
  bomb                                                  | bomb                                           | BOMB
- bomber-coin                                           | bcoin                                          | Bomber Coin
+ bomber-coin                                           | bcoin                                          | BombCrypto
  bomberman                                             | $bomb                                          | Bomberman
  bomb-money                                            | bomb                                           | Bomb Money
  bomb-money-bshare                                     | bshare                                         | Bomb Money BShare
@@ -2168,7 +2169,6 @@
  budacoin                                              | buda                                           | BudaCoin
  buddy                                                 | bud                                            | Buddy
  buffalo-swap                                          | buff                                           | Buffalo Swap
- buffaloswap-horn                                      | horn                                           | BuffaloSwap HORN
  buff-doge-coin                                        | dogecoin                                       | Buff Doge Coin
  buffed-kishu                                          | bkishu                                         | Buffed Kishu
  buffedshiba                                           | bshib                                          | BuffedShiba
@@ -2694,6 +2694,7 @@
  coinalpha                                             | alp                                            | CoinAlpha
  coin-artist                                           | coin                                           | Coin Artist
  coinary-token                                         | cyt                                            | Coinary
+ contracoin                                            | ctcn                                           | Contracoin
  coinbase-stock                                        | coin                                           | Coinbase Tokenized Stock on FTX
  coinbase-stock-bittrex                                | coin                                           | Coinbase Tokenized Stock on Bittrex
  coinbase-tokenized-stock-defichain                    | dcoin                                          | Coinbase Tokenized Stock Defichain
@@ -2825,7 +2826,6 @@
  content-value-network                                 | cvnt                                           | Conscious Value Network
  continuum-finance                                     | ctn                                            | Continuum Finance
  continuum-world                                       | um                                             | Continuum World
- contracoin                                            | ctcn                                           | Contracoin
  contracto                                             | lock                                           | Contracto
  contribute                                            | trib                                           | Contribute
  conun                                                 | con                                            | CONUN
@@ -2875,7 +2875,7 @@
  cosmos                                                | atom                                           | Cosmos Hub
  cosmostarter                                          | csms                                           | Cosmostarter
  cosplay-token                                         | cot                                            | Cosplay (OLD)
- cosplay-token-2                                       | cot                                            | Cosplay
+ cosplay-token-2                                       | cot                                            | Cosplay Token
  cost-coin                                             | akm                                            | COST COIN+
  coti                                                  | coti                                           | COTI
  cotrader                                              | cot                                            | CoTrader
@@ -3012,7 +3012,7 @@
  cryb                                                  | cryb                                           | Cryb
  crybet                                                | cbt                                            | CryBet
  crycash                                               | crc                                            | CRYCASH
- cry-coin                                              | cryy                                           | Cry Coin
+ cry-coin                                              | cryy                                           | Cry Cat Coin
  cryn                                                  | cryn                                           | CRYN
  cryowar-token                                         | cwar                                           | Cryowar
  crypcade-shares                                       | cade                                           | CrypCade Shares
@@ -3184,7 +3184,6 @@
  crystal-of-dragon                                     | cod                                            | Crystal Of Dragon
  crystal-powder                                        | cp                                             | Crystal Powder
  crystal-token                                         | cyl                                            | Crystal CYL
- crystal-wallet                                        | crt                                            | Crystal Wallet
  crystl-finance                                        | crystl                                         | Crystl Finance
  cspc                                                  | cspc                                           | CSPC
  csp-dao-network                                       | nebo                                           | CSP DAO Network
@@ -3258,6 +3257,7 @@
  cyn-c                                                 | cync                                           | Cyn-C
  cyop-protocol                                         | cyop                                           | CyOp Protocol
  cypherium                                             | cph                                            | Cypherium
+ cyrus-coin                                            | cyrus                                          | Cyrus Coin
  czfarm                                                | czf                                            | CZFarm
  czusd                                                 | czusd                                          | CZUSD
  d3                                                    | defi                                           | D3
@@ -3369,7 +3369,6 @@
  dawg                                                  | dawg                                           | DAWG
  dawn-of-gods                                          | dago                                           | Dawn Of Gods
  dawn-protocol                                         | dawn                                           | Dawn Protocol
- dawn-wars                                             | dw                                             | Dawn Wars
  day-by-day                                            | dbd                                            | Day By Day
  day-of-defeat                                         | dod                                            | Day Of Defeat
  dbquest                                               | dbq                                            | DBQuest
@@ -3434,7 +3433,6 @@
  deesse                                                | love                                           | Deesse
  deez-nuts                                             | deeznuts                                       | Deez Nuts
  defactor                                              | factr                                          | Defactor
- defender-of-doge                                      | dod                                            | Defender of Doge
  defhold                                               | defo                                           | DefHold
  defi11                                                | d11                                            | DeFi11
  defiai                                                | dfai                                           | DeFiAI
@@ -3714,6 +3712,7 @@
  dirham-crypto                                         | dhs                                            | Dirham Crypto
  dirty-finance                                         | dirty                                          | Dirty Finance
  disbalancer                                           | ddos                                           | disBalancer
+ disciplesdao                                          | dct                                            | DisciplesDAO
  disco-burn-token                                      | dbt                                            | Disco Burn
  district0x                                            | dnt                                            | district0x
  distx                                                 | distx                                          | DistX
@@ -4269,6 +4268,7 @@
  equitrader                                            | eqt                                            | EquiTrader
  equos-origin                                          | eqo                                            | EQO
  era7                                                  | era                                            | Era7
+ era7-game-of-truth                                    | got                                            | Era7: Game of Truth
  e-radix                                               | exrd                                           | e-Radix
  era-swap-token                                        | es                                             | Era Swap
  erc20                                                 | erc20                                          | ERC20
@@ -4558,6 +4558,7 @@
  fantasy-doge                                          | ftd                                            | Fantasy Doge
  fantasy-gold                                          | fgc                                            | Fantasy Gold
  fantasy-monster                                       | fts                                            | Fantasy Monster
+ fantasy-war                                           | fawa                                           | Fantasy War
  fantasy-world-gold                                    | fwg                                            | Fantasy World Gold
  fantohm                                               | fhm                                            | Fantohm
  fantom                                                | ftm                                            | Fantom
@@ -4590,6 +4591,7 @@
  farm-skylines                                         | fsk                                            | Farm Skylines
  farmyield                                             | famy                                           | FarmYield
  fashion-coin                                          | fshn                                           | Fashion Coin
+ fast-finance                                          | fast                                           | Fast Finance
  fast-food-wolf-game                                   | ffwool                                         | Fast Food Wolf Game
  fastmoon                                              | fastmoon                                       | FastMoon
  fastswap                                              | fast                                           | FastSwap
@@ -4733,6 +4735,7 @@
  flash-token                                           | flash                                          | Flash Loans
  flash-token-2                                         | flash                                          | Flash
  flashx-ultra                                          | fsxu                                           | FlashX Ultra
+ flatqube                                              | qube                                           | FlatQube
  flavors-bsc                                           | flvr                                           | Flavors BSC
  flesh-token                                           | flesh                                          | Flesh
  fleta                                                 | fleta                                          | FLETA
@@ -4893,6 +4896,7 @@
  freedom-coin                                          | free                                           | FREEdom coin
  freedom-god-dao                                       | fgd                                            | Freedom God DAO
  freedom-jobs-business                                 | $fjb                                           | Freedom. Jobs. Business
+ freedom-protocol                                      | free                                           | Freedom Protocol
  freedom-reserve                                       | fr                                             | Freedom Reserve
  freela                                                | frel                                           | Freela
  freeliquid                                            | fl                                             | Freeliquid
@@ -5161,7 +5165,6 @@
  genexi                                                | gxi                                            | Genexi
  genie-protocol                                        | gnp                                            | Genie Protocol
  genius-coin                                           | genius                                         | Genius Coin
- genius-yield                                          | gens                                           | Genius Yield
  genix                                                 | genix                                          | Genix
  gennix                                                | gnnx                                           | Gennix
  genomesdao                                            | $gene                                          | GenomesDAO
@@ -5443,6 +5446,7 @@
  grid                                                  | grid                                           | GridPlus [OLD]
  gridcoin-research                                     | grc                                            | Gridcoin
  gridzone                                              | zone                                           | GridZone.io
+ griffin                                               | griffin                                        | Griffin
  griffin-art                                           | gart                                           | Griffin Art
  grimace-coin                                          | grimace                                        | Grimace Coin
  grim-evo                                              | grim evo                                       | Grim EVO
@@ -5541,7 +5545,6 @@
  hanu-yokia                                            | hanu                                           | Hanu Yokia
  hanzo-inu                                             | hanzo                                          | Hanzo
  hapi                                                  | hapi                                           | HAPI
- happiness-token                                       | hps                                            | Happiness HPS
  happy-birthday-coin                                   | hbdc                                           | Happy Birthday Coin
  happycoin                                             | happy                                          | HappyCoin
  happyfans                                             | happy                                          | HappyFans
@@ -5686,6 +5689,7 @@
  hesh-fi                                               | hesh                                           | Hesh.Fi
  hesman-shard                                          | hes                                            | Hesman Shard
  hex                                                   | hex                                            | HEX
+ hexanfts                                              | hnft                                           | HexaNFTs
  hex-money                                             | hxy                                            | HXY Money
  hey-shiba                                             | $heyshib                                       | Hey Shiba
  hfuel                                                 | hfuel                                          | HFuel
@@ -5980,6 +5984,7 @@
  ifx24                                                 | ifx24                                          | IFX24
  ig-gold                                               | igg                                            | IG Gold
  ignis                                                 | ignis                                          | Ignis
+ ignite-2                                              | igt                                            | Ignite
  ignition                                              | ic                                             | Ignition
  igtoken                                               | ig                                             | IGT
  iht-real-estate-protocol                              | iht                                            | IHT Real Estate Protocol
@@ -6042,6 +6047,7 @@
  infam                                                 | inf                                            | Infam
  infbundle                                             | inf                                            | INFBUNDLE
  infchain                                              | inf                                            | InfChain
+ infinite-arcade-tic                                   | tic                                            | Infinite Arcade TIC
  infinitecoin                                          | ifc                                            | Infinitecoin
  infinitee                                             | inftee                                         | Infinitee
  infinite-ecosystem                                    | infinity                                       | Infinite Ecosystem
@@ -6220,6 +6226,7 @@
  ispolink                                              | isp                                            | Ispolink
  istanbul-basaksehir-fan-token                         | ibfk                                           | İstanbul Başakşehir Fan Token
  istardust                                             | isdt                                           | Istardust
+ istep                                                 | istep                                          | iSTEP
  italian-lira                                          | itl                                            | Italian Lira
  italo                                                 | xta                                            | Italo
  itam-games                                            | itam                                           | ITAM Games
@@ -6292,6 +6299,7 @@
  jigen                                                 | jig                                            | Jigen
  jigsaw                                                | jigsaw                                         | Jigsaw
  jigstack                                              | stak                                           | Jigstack
+ jimngalaxy                                            | jimn                                           | JimnGalaxy
  jindoge                                               | jindoge                                        | Jindoge
  jindo-inu                                             | jind                                           | Jindo Inu
  jk-coin                                               | jk                                             | JK Coin
@@ -6637,7 +6645,6 @@
  krypton-token                                         | kgc                                            | Krypton Galaxy Coin
  kryptopets                                            | kpets                                          | KryptoPets
  kryxivia-game                                         | kxa                                            | Kryxivia Game
- kryza-exchange                                        | krx                                            | KRYZA Exchange
  kryza-network                                         | krn                                            | KRYZA Network
  ksm-starter                                           | kst                                            | Karus Starter
  kstarcoin                                             | ksc                                            | KStarCoin
@@ -7086,7 +7093,6 @@
  luxo                                                  | luxo                                           | Luxo
  luxor                                                 | lux                                            | Luxor
  luxurious-pro-network-token                           | lpnt                                           | Luxurious Pro Network
- luxury-club                                           | lux                                            | Luxury Club
  luxy                                                  | luxy                                           | Luxy
  luyuka                                                | lyk                                            | Luyuka
  luzion-protocol                                       | lzn                                            | Luzion Protocol
@@ -7180,6 +7186,7 @@
  mandi-token                                           | mandi                                          | Mandi
  mandox-2                                              | mandox                                         | MandoX
  maneki-neko                                           | neki                                           | Maneki-neko
+ mangamon                                              | man                                            | MangaMon
  manga-token                                           | $manga                                         | Manga
  mangochain                                            | mgp                                            | MangoChain
  mango-markets                                         | mngo                                           | Mango
@@ -7416,6 +7423,7 @@
  memewars                                              | mwar                                           | MemeWars
  memex                                                 | memex                                          | MEMEX
  menapay                                               | mpay                                           | Menapay
+ mend                                                  | mend                                           | Mend
  menlo-one                                             | one                                            | Menlo One
  mensa                                                 | msa                                            | Mensa
  mensa-protocol                                        | mensa                                          | Mensa Protocol
@@ -7452,7 +7460,6 @@
  metabean                                              | metabean                                       | MetaBean
  metabet                                               | mbet                                           | MetaBET
  metabike                                              | mbike                                          | Metabike
- meta-billionaires-club                                | metabc                                         | Meta Billionaires Club
  metablackout                                          | mbt                                            | MetaBlackout
  metabolic                                             | mtbc                                           | Metabolic
  metabomb                                              | mtb                                            | MetaBomb
@@ -7687,7 +7694,6 @@
  miami                                                 | miami                                          | MIAMI
  miamicoin                                             | mia                                            | MiamiCoin
  miami-land                                            | miami                                          | Miami Land
- miaw-token                                            | miaw                                           | Miaw
  mib-coin                                              | mib                                            | MIB Coin
  microbitcoin                                          | mbc                                            | MicroBitcoin
  micro-bitcoin-finance                                 | mbtc                                           | Micro Bitcoin Finance
@@ -7802,36 +7808,14 @@
  miraqle                                               | mql                                            | MiraQle
  mirl                                                  | mirl                                           | MIRL
  mirocana                                              | miro                                           | Mirocana
- mirrored-airbnb                                       | mabnb                                          | Mirrored Airbnb
- mirrored-alibaba                                      | mbaba                                          | Mirrored Alibaba
- mirrored-amazon                                       | mamzn                                          | Mirrored Amazon
- mirrored-apple                                        | maapl                                          | Mirrored Apple
  mirrored-bitcoin                                      | mbtc                                           | Mirrored Bitcoin
  mirrored-coca-cola                                    | mko                                            | Mirrored Coca-Cola
- mirrored-coinbase                                     | mcoin                                          | Mirrored Coinbase
  mirrored-ether                                        | meth                                           | Mirrored Ether
- mirrored-facebook                                     | mfb                                            | Mirrored Facebook
- mirrored-galaxy-digital-holdings-ltd                  | mglxy                                          | Mirrored Galaxy Digital Holdings Ltd
- mirrored-goldman-sachs                                | mgs                                            | Mirrored Goldman Sachs
- mirrored-google                                       | mgoogl                                         | Mirrored Google
- mirrored-invesco-qqq-trust                            | mqqq                                           | Mirrored Invesco QQQ Trust
- mirrored-ishares-gold-trust                           | miau                                           | Mirrored iShares Gold Trust
- mirrored-ishares-silver-trust                         | mslv                                           | Mirrored iShares Silver Trust
  mirrored-johnson-johnson                              | mjnj                                           | Mirrored Johnson & Johnson
- mirrored-microsoft                                    | mmsft                                          | Mirrored Microsoft
- mirrored-netflix                                      | mnflx                                          | Mirrored Netflix
  mirrored-nio                                          | mnio                                           | Mirrored Nio
  mirrored-nvidia                                       | mnvda                                          | Mirrored Nvidia
  mirrored-paypal                                       | mpypl                                          | Mirrored Paypal
- mirrored-proshares-vix                                | mvixy                                          | Mirrored ProShares VIX
- mirrored-spdr-s-p-500                                 | mspy                                           | Mirrored SPDR S&P 500
- mirrored-square                                       | msq                                            | Mirrored Square
  mirrored-starbucks                                    | msbux                                          | Mirrored Starbucks
- mirrored-tesla                                        | mtsla                                          | Mirrored Tesla
- mirrored-twitter                                      | mtwtr                                          | Mirrored Twitter
- mirrored-united-states-oil-fund                       | muso                                           | Mirrored United States Oil Fund
- mirror-markk-token                                    | markk                                          | Mirror mARKK Token
- mirror-mdot-token                                     | mdot                                           | Mirror mDOT
  mirror-protocol                                       | mir                                            | Mirror Protocol
  mirror-world-token                                    | mw                                             | Mirror World
  misbloc                                               | msb                                            | Misbloc
@@ -7926,6 +7910,7 @@
  monero-classic-xmc                                    | xmc                                            | Monero-Classic
  monerov                                               | xmv                                            | MoneroV
  moneta                                                | moneta                                         | Moneta
+ moneta-digital                                        | mmxn                                           | Moneta Digital
  monetaryunit                                          | mue                                            | MonetaryUnit
  monetas                                               | mntg                                           | Monetas
  monetha                                               | mth                                            | Monetha
@@ -8073,6 +8058,7 @@
  movecash                                              | mca                                            | MoveCash
  movei                                                 | move                                           | Movei
  move-network                                          | movd                                           | MOVE Network
+ movex                                                 | movx                                           | MoveX
  movey                                                 | movey                                          | Movey
  movez                                                 | movez                                          | MoveZ
  moviebloc                                             | mbl                                            | MovieBloc
@@ -8150,6 +8136,7 @@
  mybricks                                              | bricks                                         | MyBricks
  myce                                                  | yce                                            | MYCE
  my-ceremonial-event                                   | myce                                           | MY Ceremonial Event
+ myconstant                                            | const                                          | MyConstant
  mycro-ico                                             | myo                                            | Mycro
  my-defi-legends                                       | dlegends                                       | My DeFi Legends
  my-defi-pet                                           | dpet                                           | My DeFi Pet
@@ -8272,7 +8259,6 @@
  netbox-coin                                           | nbx                                            | Netbox Coin
  netcoin                                               | net                                            | Netcoin
  netcoincapital                                        | ncc                                            | Netcoincapital
- nimbus                                                | nbu                                            | Nimbus
  netflix-tokenized-stock-defichain                     | dnflx                                          | Netflix Tokenized Stock Defichain
  netflix-tokenized-stock-zipmex                        | nflx                                           | Netflix Tokenized Stock Zipmex
  nether                                                | ntr                                            | Nether
@@ -8407,6 +8393,7 @@
  nil-coin                                              | nil                                            | NIL
  nil-dao                                               | nil                                            | Nil DAO
  nilu                                                  | nilu                                           | Nilu
+ nimbus                                                | nbu                                            | Nimbus
  nimbus-governance-token                               | gnbu                                           | Nimbus Governance
  nimiq-2                                               | nim                                            | Nimiq
  ninja-doge                                            | $ninjadoge                                     | Ninja Doge
@@ -8776,7 +8763,6 @@
  ormeus-cash                                           | omc                                            | Ormeus Cash
  ormeuscoin                                            | orme                                           | Ormeus Coin
  ormeus-ecosystem                                      | eco                                            | Ormeus Ecosystem
- orne                                                  | orne                                           | Orne
  oro                                                   | oro                                            | ORO
  oshare                                                | oshare                                         | OShare
  osk                                                   | osk                                            | OSK
@@ -8785,6 +8771,7 @@
  otcbtc-token                                          | otb                                            | OTCBTC
  ot-compound-dai                                       | ot-cdai-29dec2022                              | OT Compound Dai
  otfinancial                                           | ot                                             | OTFINANCIAL
+ otherdao                                              | othr                                           | OtherDAO
  otherlife                                             | otl                                            | OtherLife
  otium-technologies                                    | otium                                          | Otium Technologies
  otocash                                               | oto                                            | OTOCASH
@@ -8941,6 +8928,7 @@
  pathdao                                               | path                                           | PathDAO
  pathfundv2                                            | path                                           | PathFundV2
  patientory                                            | ptoy                                           | Patientory
+ patriot-exchange                                      | patx                                           | Patriot Exchange
  patron                                                | pat                                            | Patron
  pavecoin                                              | pvn                                            | Pavecoin
  pavia                                                 | pavia                                          | Pavia
@@ -9090,12 +9078,13 @@
  phoneum                                               | pht                                            | Phoneum
  phonon-dao                                            | phonon                                         | Phonon DAO
  phore                                                 | phr                                            | Phore
+ phoswap                                               | pho                                            | Phoswap
  photochromic                                          | phcr                                           | PhotoChromic
  photon                                                | pho                                            | Photon
  photonswap                                            | photon                                         | PhotonSwap
  phuket-holiday-coin                                   | phc                                            | Phuket Holiday Coin
  phunk-vault-nftx                                      | phunk                                          | PHUNK Vault (NFTX)
- phuntoken                                             | phtk                                           | Phun
+ phuntoken                                             | phtk                                           | Phun Token
  phu-quoc-dog                                          | pqd                                            | Phu Quoc Dog
  phuture                                               | phtr                                           | Phuture
  phuture-defi-index                                    | pdi                                            | Phuture DeFi Index
@@ -9120,6 +9109,7 @@
  piedao-yearn-ecosystem-pie                            | ypie                                           | PieDAO Yearn Ecosystem Pie
  pieme                                                 | pie                                            | Pieme
  pie-share                                             | pie                                            | Pie Share
+ pige-inu                                              | pinu                                           | Pige Inu
  pigeoncoin                                            | pgn                                            | Pigeoncoin
  pigeon-sol                                            | pgnt                                           | Pigeon Sol
  pig-finance                                           | pig                                            | Pig Finance
@@ -9129,7 +9119,8 @@
  piggy-finance                                         | piggy                                          | Piggy Finance
  piggy-planet                                          | pigi                                           | Piggy Planet
  piggy-share                                           | pshare                                         | Piggy Share
- pigs                                                  | pigs                                           | PIGS
+ pigs                                                  | pigs                                           | PIGS [OLD]
+ pigs-2                                                | afp                                            | PIGS
  pikachu                                               | pika                                           | Pika
  pikachu-inu                                           | pikachu                                        | Pikachu Inu
  pikaster                                              | mls                                            | Pikaster
@@ -9294,6 +9285,7 @@
  polar                                                 | polar                                          | POLAR
  polaris                                               | polar                                          | Polarisdefi
  polarisdao                                            | aris                                           | PolarisDAO
+ polaris-finance-orbital                               | orbital                                        | Polaris Finance Orbital
  polaris-share                                         | pola                                           | Polaris Share
  polaris-token                                         | plrs                                           | Polaris Token
  polars                                                | pol                                            | Polars
@@ -9440,6 +9432,7 @@
  powerada                                              | pow                                            | PowerADA
  powerbalt                                             | pwrb                                           | PowerBalt
  power-cash                                            | prch                                           | Power Cash
+ powerfan                                              | pfan                                           | PowerFan
  power-index-pool-token                                | pipt                                           | Power Index Pool
  power-ledger                                          | powr                                           | Power Ledger
  power-nodes                                           | power                                          | Power Nodes
@@ -9477,7 +9470,7 @@
  prism-yluna                                           | yluna                                          | Prism yLUNA
  privacyswap                                           | prv                                            | PrivacySwap
  privapp-network                                       | bpriva                                         | Privapp Network
- privateum                                             | pvm                                            | Privateum
+ privateum                                             | pri                                            | Privateum
  privatix                                              | prix                                           | Privatix
  privcy                                                | priv                                           | PRiVCY
  privi-pix                                             | pix                                            | Privi Pix
@@ -9911,6 +9904,7 @@
  review-capital                                        | recap                                          | Review Capital
  revival                                               | rvl                                            | REVIVAL
  revive                                                | rve                                            | Revive
+ revoland                                              | revo                                           | Revoland
  revolotto                                             | rvl                                            | Revolotto
  revolt                                                | revt                                           | Revolt
  revolution                                            | rev                                            | Revolution
@@ -10067,6 +10061,7 @@
  roi                                                   | roi                                            | 5ROI
  roiyal-coin                                           | roco                                           | ROIyal Coin
  rokkit-fuel                                           | $rokk                                          | Rokkit Fuel
+ rolaz-gold                                            | rgld                                           | Rolaz Gold
  rollbit-coin                                          | rlb                                            | Rollbit Coin
  rollium                                               | rlm                                            | MarbleVerse
  rome                                                  | rome                                           | Rome
@@ -10549,7 +10544,7 @@
  shib-army                                             | shibarmy                                       | Shib Army
  shibarocket                                           | shibarocket                                    | ShibaRocket
  shiba-shogun                                          | shibagun                                       | Shiba Shogun
- shiba-toby                                            | shbt                                           | Shiba Toby
+ shiba-toby                                            | nahal                                          | Nahal
  shiba-universe                                        | shibu                                          | Shiba Universe
  shibavax                                              | shibx                                          | Shibavax
  shibaverse                                            | verse                                          | Shibaverse
@@ -10613,7 +10608,6 @@
  shinjutsu                                             | shinjutsu                                      | Shinjutsu
  shinobi                                               | snb                                            | Shinobi
  shinobi-inu                                           | shin                                           | Shinobi Inu
- shinomics                                             | shin                                           | Shinomics
  shintama                                              | shintama                                       | Shintama
  shiny                                                 | shiny                                          | Shiny
  shipchain                                             | ship                                           | ShipChain
@@ -10699,7 +10693,6 @@
  sincere-cate                                          | $scate                                         | Sincere Cate
  sincere-doge                                          | sdoge                                          | Sincere Doge
  sin-city                                              | sin                                            | Sinverse
- sinerium                                              | xnr                                            | Sinerium
  singer-community-coin                                 | singer                                         | Singer Community Coin
  singh                                                 | singh                                          | Singh
  single-finance                                        | single                                         | Single Finance
@@ -10770,6 +10763,7 @@
  smart-medical-coin                                    | smc                                            | Smart Medical Coin
  smartmesh                                             | smt                                            | SmartMesh
  smart-mfg                                             | mfg                                            | Smart MFG
+ smart-money-coin                                      | smc                                            | Smart Money Coin
  smartnft                                              | smartnft                                       | SmartNFT
  smartnodes-finance                                    | smrt                                           | Smart Finance
  smartofgiving                                         | aog                                            | smARTOFGIVING
@@ -10858,6 +10852,7 @@
  solana-inu                                            | inu                                            | Solana Inu
  solana-nut                                            | solnut                                         | Solana Nut
  solana-paws                                           | paws                                           | Solana Paws
+ solanaprime                                           | prime                                          | SolanaPrime
  solanasail-governance-token                           | gsail                                          | SolanaSail Governance
  solanax                                               | sold                                           | Solanax
  sola-ninja                                            | snj                                            | Sola Ninja
@@ -10982,6 +10977,7 @@
  soul-swap                                             | soul                                           | Soul Swap
  sound-coin                                            | sound                                          | Sound Coin
  souni-token                                           | son                                            | Souni
+ source-protocol                                       | srcx                                           | Source Protocol
  south-african-tether                                  | xzar                                           | South African Tether
  southxchange-coin                                     | sxcc                                           | SouthXchange Coin
  sov                                                   | sov                                            | SOV
@@ -11157,6 +11153,7 @@
  stable-btc                                            | onebtc                                         | Stable BTC
  stabledoc-token                                       | sdt                                            | Stabledoc
  stable-fox                                            | onefox                                         | Stable FOX
+ stable-ichi                                           | oneichi                                        | Stable ICHI
  stable-uni                                            | oneuni                                         | Stable UNI
  stableusd                                             | usds                                           | Stably USD
  stacker-ventures                                      | stack                                          | Stacker Ventures
@@ -11235,7 +11232,6 @@
  star-ship-royal                                       | ssr                                            | Star Ship Royal
  starship-token                                        | stars                                          | StarShip Stars
  starstream                                            | stars                                          | Starstream
- starterra                                             | stt                                            | StarTerra
  startfi                                               | stfi                                           | StartFi
  start-vesting                                         | vest                                           | START Vesting
  star-wars-cat                                         | swcat                                          | Star Wars Cat
@@ -11342,7 +11338,6 @@
  subme                                                 | sub                                            | Subme
  subquery-network                                      | sqt                                            | SubQuery Network
  substratum                                            | sub                                            | Substratum
- subx-finance                                          | sfx                                            | SUBX FINANCE LAB
  success-inu                                           | success                                        | SUCCESS INU
  succession                                            | sccn                                           | Succession
  such-shiba                                            | such                                           | Such Shiba
@@ -11377,7 +11372,6 @@
  superbid                                              | superbid                                       | SuperBid
  superbnb-finance                                      | spb                                            | SuperBNB.Finance [OLD]
  superbonds                                            | sb                                             | SuperBonds
- superbrain-capital-dao                                | $sbc                                           | SuperBrain Capital Dao
  supercars                                             | car                                            | Supercars
  superciety                                            | super                                          | Superciety
  supercoin                                             | super                                          | SuperCoin
@@ -11428,6 +11422,7 @@
  swace                                                 | swace                                          | Swace
  swagbucks                                             | bucks                                          | SwagBucks
  swag-finance                                          | swag                                           | SWAG Finance
+ tartarus                                              | tar                                            | Tartarus
  swag-finance-wormhole                                 | swag                                           | SWAG Finance (Wormhole)
  swak                                                  | swak                                           | SWAK
  s-wallet-protocol                                     | swp                                            | S-Wallet Protocol
@@ -11444,7 +11439,7 @@
  swappery-token                                        | swpr                                           | The Swappery
  swappi                                                | ppi                                            | Swappi
  swapr                                                 | swpr                                           | Swapr
- swapsicle-pops                                        | pops                                           | Swapsicle Pops
+ swapsicle-pops                                        | pops                                           | Swapsicle
  swaptracker                                           | swpt                                           | SwapTracker
  swapx                                                 | xwap                                           | SwapX
  swapxi-token                                          | swapxi                                         | SwapXI
@@ -11570,7 +11565,6 @@
  tarot                                                 | tarot                                          | Tarot
  taroverse                                             | taro                                           | Taroverse
  tart                                                  | tart                                           | Tartarus Finance
- tartarus                                              | tar                                            | Tartarus
  tastenft                                              | taste                                          | TasteNFT
  tattoomoney                                           | tat2                                           | TattooMoney
  taunt-battleworld                                     |                                                | Taunt Battleworld
@@ -11643,7 +11637,6 @@
  terra-int                                             | int                                            | Terra INT
  terra-jpt                                             | jpt                                            | Terra JPT
  terra-krw                                             | krtc                                           | TerraClassicKRW
- terraland-token                                       | tland                                          | TerraLand
  terra-luna                                            | lunc                                           | Terra Luna Classic
  terra-luna-2                                          | luna                                           | Terra
  terramnt                                              | mnt                                            | Terra MNT
@@ -11978,6 +11971,7 @@
  tower-defense-titans                                  | titans                                         | Tower Defense Titans
  tower-usd                                             | twr                                            | Tower USD
  town-star                                             | town                                           | Town Star
+ toxicdeer-finance                                     | deer                                           | ToxicDeer Finance
  toxicgamenft                                          | txc                                            | ToxicGameNft
  toxic-game-nft                                        | ntxc                                           | Toxic Game NFT
  tozex                                                 | toz                                            | Tozex
@@ -12040,7 +12034,6 @@
  tribeone                                              | haka                                           | TribeOne
  tribe-token                                           | tribex                                         | Tribe Token
  tribe-wormhole                                        | tribe                                          | Tribe (Wormhole)
- trick                                                 | trick                                          | Trick
  trickle                                               | h2o                                            | Trickle
  triipmiles                                            | tiim                                           | TriipMiles
  trillion                                              | tt                                             | Trillion
@@ -12125,6 +12118,7 @@
  tune                                                  | tun                                            | TUNE
  tune-fm                                               | jam                                            | Tune.Fm
  tune-token                                            | tune                                           | TUNE TOKEN
+ turbo-wallet                                          | turbo                                          | Turbo Wallet
  turex                                                 | tur                                            | Turex
  turkiye-basketbol-federasyonu-token                   | tbft                                           | Turkiye Basketbol Federasyonu Token
  turnt-up-tikis                                        | tut                                            | Turnt Up Tikis
@@ -12240,7 +12234,6 @@
  unicly-genesis-mooncats-collection                    | ugmc                                           | Unicly Genesis MoonCats Collection
  unicly-mooncats-collection                            | umoon                                          | Unicly MoonCats Collection
  unicly-mystic-axies-collection                        | uaxie                                          | Unicly Mystic Axies Collection
- vera-cruz-coin                                        | vcco                                           | Vera Cruz Coin
  unicly-waifu-collection                               | uwaifu                                         | Unicly Waifu Collection
  unicorn-cake                                          | unic                                           | Unicorn Cake
  unicorn-milk                                          | unim                                           | Unicorn Milk
@@ -12470,6 +12463,7 @@
  vega-coin                                             | vega                                           | Vega Coin
  vegannation-greencoin                                 | grnc                                           | VeganNation GreenCoin
  vega-protocol                                         | vega                                           | Vega Protocol
+ vegasino                                              | vegas                                          | Vegasino
  vegawallet-token                                      | vgw                                            | VegaWallet
  veggiecoin                                            | vegi                                           | VeggieCoin
  veil                                                  | veil                                           | VEIL
@@ -12510,6 +12504,7 @@
  venus-xrp                                             | vxrp                                           | Venus XRP
  venus-xvs                                             | vxvs                                           | Venus XVS
  vera                                                  | vera                                           | Vera
+ vera-cruz-coin                                        | vcco                                           | Vera Cruz Coin
  vera-exchange                                         | vera                                           | VERA Exchange
  veraone                                               | vro                                            | VeraOne
  verasity                                              | vra                                            | Verasity
@@ -12665,6 +12660,7 @@
  vpex-exchange                                         | vpx                                            | VPEX Exchange
  vpncoin                                               | vash                                           | VPNCoin
  vr-blocks                                             | vrblocks                                       | VR Blocks
+ vrynt                                                 | vrynt                                          | VRYNT
  vsolidus                                              | vsol                                           | VSolidus
  vsync                                                 | vsx                                            | Vsync
  v-systems                                             | vsys                                           | V.SYSTEMS
@@ -12685,7 +12681,8 @@
  wagerr                                                | wgr                                            | Wagerr
  waggle-network                                        | wag                                            | Waggle Network
  wagmi                                                 | wagmi                                          | WAGMI
- wagmi-game                                            | wagmi                                          | WAGMI Game
+ wagmi-game                                            | wagmi                                          | WAGMI Game [OLD]
+ wagmi-game-2                                          | wagmi                                          | WAGMI Game
  wagmi-on-solana                                       | wagmi                                          | WAGMI On Solana
  wagyuswap                                             | wag                                            | WagyuSwap
  waifer                                                | waif                                           | Waifer
@@ -13133,6 +13130,7 @@
  xircus                                                | xircus                                         | Xircus
  xi-token                                              | xi                                             | Xi
  xjewel                                                | xjewel                                         | xJEWEL
+ xlist                                                 | xlist                                          | XList
  xl-moon                                               | xlmn                                           | XL-Moon
  xmark                                                 | xmark                                          | xMARK
  xmax                                                  | xmx                                            | XMax
@@ -13169,6 +13167,7 @@
  xsgd                                                  | xsgd                                           | XSGD
  xsigma                                                | sig                                            | xSigma
  xsl-labs                                              | syl                                            | XSL Labs
+ xspectar                                              | xspectar                                       | xSPECTAR
  xstorage                                              | xstx                                           | XStorage
  xsushi                                                | xsushi                                         | xSUSHI
  xswap                                                 | xsp                                            | XSwap
@@ -13366,6 +13365,7 @@
  zebec-protocol                                        | zbc                                            | Zebec Protocol
  zebi                                                  | zco                                            | Zebi
  zedxion                                               | zedxion                                        | Zedxion
+ zedxion-usdz                                          | usdz                                           | Zedxion USDZ
  zeedex                                                | zdex                                           | Zeedex
  zeepin                                                | zpt                                            | Zeepin
  zeitcoin                                              | zeit                                           | Zeitcoin
@@ -13433,6 +13433,7 @@
  zion                                                  | zion                                           | Zion
  zioncoin                                              | znc                                            | ZionCoin
  zionomics                                             | ziox                                           | Zionomics
+ ziontopia                                             | zion                                           | ZionTopia
  ziot                                                  | ziot                                           | Ziot
  zip                                                   | zip                                            | Zipper Network
  zipmex-token                                          | zmt                                            | Zipmex
@@ -13497,34 +13498,5 @@
  zyrri                                                 | zyr                                            | Zyrri
  zytara-dollar                                         | zusd                                           | Zytara Dollar
  zyx                                                   | zyx                                            | ZYX
-(13497 rows)
-
-                   List of relations
-   Schema    |       Name        | Type  |    Owner    
--------------+-------------------+-------+-------------
- sailors     | boats             | table | spr2022bdb3
- sailors     | reserves          | table | spr2022bdb3
- sailors     | sailors           | table | spr2022bdb3
- spr2022bdb3 | characters        | table | spr2022bdb3
- spr2022bdb3 | class_roster      | table | spr2022bdb3
- spr2022bdb3 | crypto_langs      | table | spr2022bdb3
- spr2022bdb3 | crypto_marketdata | table | spr2022bdb3
- spr2022bdb3 | crypto_ranks      | table | spr2022bdb3
- spr2022bdb3 | crypto_records    | table | spr2022bdb3
- spr2022bdb3 | cryptocurrencies  | table | spr2022bdb3
- spr2022bdb3 | special_moves     | table | spr2022bdb3
- spr2022bdb3 | test              | table | spr2022bdb3
- spy         | affiliation       | table | spr2022bdb3
- spy         | affiliationrel    | table | spr2022bdb3
- spy         | agent             | table | spr2022bdb3
- spy         | language          | table | spr2022bdb3
- spy         | languagerel       | table | spr2022bdb3
- spy         | mission           | table | spr2022bdb3
- spy         | securityclearance | table | spr2022bdb3
- spy         | skill             | table | spr2022bdb3
- spy         | skillrel          | table | spr2022bdb3
- spy         | team              | table | spr2022bdb3
- spy         | teamrel           | table | spr2022bdb3
- store       | pricelist         | table | spr2022bdb3
-(24 rows)
+(13498 rows)
 

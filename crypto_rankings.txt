@@ -1,0 +1,53 @@
+                id                | market_cap_rank | coingecko_rank 
+----------------------------------+-----------------+----------------
+ 01coin                           |                 |           2395
+ 0-5x-long-algorand-token         |                 |          12360
+ 0-5x-long-altcoin-index-token    |                 |          12310
+ 0-5x-long-ascendex-token-token   |                 |          12976
+ 0-5x-long-bitcoin-cash-token     |                 |          12973
+ 0-5x-long-bitcoin-token          |                 |          12975
+ 0-5x-long-cardano-token          |                 |          12298
+ 0-5x-long-chainlink-token        |                 |          12977
+ 0-5x-long-cosmos-token           |                 |          12962
+ 0-5x-long-dogecoin-token         |                 |          12960
+ 0-5x-long-eos-token              |                 |          12334
+ 0-5x-long-ethereum-classic-token |                 |          12343
+ 0-5x-long-ethereum-token         |                 |          12971
+ 0-5x-long-kyber-network-token    |                 |          12967
+ 0-5x-long-matic-token            |                 |          12964
+ 0-5x-long-privacy-index-token    |                 |          12312
+ 0-5x-long-swipe-token            |                 |          12974
+ 0-5x-long-theta-network-token    |                 |          12354
+ 0-5x-long-xrp-token              |                 |          12970
+ 0cash                            |                 |          12060
+ 0chain                           |             898 |            397
+ 0-mee                            |                 |           8770
+ 0x                               |             129 |             49
+ 0xcert                           |            3168 |            345
+ 0xdao                            |                 |           8358
+ 0xdao-v2                         |                 |           8357
+ 0xmonero                         |            3139 |           3927
+ 0xpad                            |                 |           8917
+ 0x-wormhole                      |                 |           8391
+ 10024-10028-appoline             |                 |           9037
+ 10084-grayton                    |                 |           9039
+ 100-days-ventures                |                 |           8975
+ 100x-coin                        |                 |          12634
+ 10604-somerset                   |                 |           8139
+ 10612-somerset                   |                 |           8179
+ 10616-mckinney                   |                 |           9064
+ 10617-hathaway                   |                 |           9052
+ 10629-mckinney                   |                 |           8157
+ 10639-stratman                   |                 |           8142
+ 10700-whittier                   |                 |           9056
+ 11078-longview                   |                 |           8156
+ 11078-wayburn                    |                 |           9046
+ 11201-college                    |                 |           9051
+ 11300-roxbury                    |                 |           8136
+ 11653-nottingham                 |                 |           9058
+ 11957-olga                       |                 |           8162
+ 11-minutes                       |                 |          13003
+ 12334-lansdowne                  |                 |           9035
+ 12405-santa-rosa                 |                 |           8137
+(49 rows)
+
